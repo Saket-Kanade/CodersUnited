@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+Creators: Saket Kanade, Ajay Bandagonda, Anathi Keswa, Konrad Bledowski
 
-Theme Name: Regna
-Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Theme: Regna Bootstrap, content created by CodersUnited Interns and employees.
