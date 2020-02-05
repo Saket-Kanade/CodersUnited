@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #ff722c;
+  border: 6px solid #80a1ca;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
