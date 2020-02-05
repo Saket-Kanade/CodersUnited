@@ -127,7 +127,7 @@ h6 {
 #header.header-fixed {
   background: rgba(255, 255, 255, 0.9);
   padding: 10px 0;
-  height: 60px;
+  height: 70px;
   transition: all 0.5s;
 }
 
@@ -228,7 +228,7 @@ h6 {
 
 .nav-menu,
 .nav-menu * {
-  margin: 0;
+  margin-top: 1px;
   padding: 0;
   list-style: none;
 }
