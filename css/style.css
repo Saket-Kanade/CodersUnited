@@ -625,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 6px solid #ff722c;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -646,7 +646,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #1f4590;
+  background: #fff;
 }
 
 #services .icon a {
@@ -654,17 +654,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon i {
-  color: #fff;
+  color: #1f4590;
   font-size: 24px;
 }
 
 #services .box:hover .icon {
   background: #1f4590;
-  border: 2px solid #1f4590;
+  border: 2px solid #f7f7f7;
 }
 
 #services .box:hover .icon i {
-  color: #fff;
+  color: #ff722c;
 }
 
 #services .box:hover .icon a {
