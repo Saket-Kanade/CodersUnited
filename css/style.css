@@ -616,7 +616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #e6e6e6;
   height: 200px;
   position: relative;
-  background: #fafafa;
+  background: #1f4590;
 }
 
 #services .icon {
@@ -654,21 +654,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon i {
-  color: #fff;
+  color: #1f4590;
   font-size: 24px;
 }
 
 #services .box:hover .icon {
-  background: #fff;
+  background: #1f4590;
   border: 2px solid #1f4590;
 }
 
 #services .box:hover .icon i {
-  color: #1f4590;
+  color: #fff;
 }
 
 #services .box:hover .icon a {
-  color: #1f4590;
+  color: #fff;
 }
 
 #services .title {
@@ -679,10 +679,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: #f7f7f7;
 }
 
 #services .description {
+    color: #fff;
   font-size: 14px;
   line-height: 24px;
 }
