@@ -220,10 +220,10 @@ h6 {
   border: 2px solid #1f4590;
 }
 
-#hero-template {
+#hero-template-about {
   width: 100%;
   height: 50vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/hero-bg-about.jpg) 50% center;
   background-size: cover;
   position: relative;
 }
@@ -234,7 +234,7 @@ h6 {
     
 }
 
-#hero-template:before {
+#hero-template-about:before {
   content: "";
   background: rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -244,7 +244,7 @@ h6 {
   right: 0;
 }
 
-#hero-template .hero-template-container {
+#hero-template-about .hero-template-about-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -270,7 +270,7 @@ h6 {
   text-align: center;
 }
 
-#hero-template h1 {
+#hero-template-about h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -279,13 +279,13 @@ h6 {
   color: #fff;
 }
 
-#hero-template h2 {
+#hero-template-about h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero-template .btn-get-started {
+#hero-template-about .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -300,7 +300,7 @@ h6 {
   color: #fff;
 }
 
-#hero-template .btn-get-started:hover {
+#hero-template-about .btn-get-started:hover {
   background: #1f4590;
   border: 2px solid #1f4590;
 }
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
-/* About Us Section
+/* About Us Page
 --------------------------------*/
 
 #about {
