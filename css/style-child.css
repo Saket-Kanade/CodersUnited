@@ -200,7 +200,7 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#vision-mission .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -211,12 +211,13 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #1f4590;
+  color: #1f4590;
 }
 
-#hero .btn-get-started:hover {
+#vision-mission .btn-get-started:hover {
   background: #1f4590;
+  color: #fff;
   border: 2px solid #1f4590;
 }
 
