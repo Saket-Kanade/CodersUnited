@@ -1029,12 +1029,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 1024px) {
-  #call-to-action {
+    #call-to-action {
     background-attachment: scroll;
   }
-}
-
-@media (max-width: 768px) {
+    
   .back-to-top {
     bottom: 15px;
   }
