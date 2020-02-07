@@ -34,22 +34,15 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img class = "logo" src="img/logo.png" alt="" title="" /></a>
+        <a href="#hero-template-about"><img class = "logo" src="img/logo.png" alt="" title="" /></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li class="menu-has-children"><a href="#about">About Us</a>
-            <ul>
-              <li><a href="#">Vision-Mission</a></li>
-              <li><a href="#">Values</a>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="">Students</a>
+          <li class="menu-active"><a href="#hero-template-about">Home</a></li>
+          <li class="menu-has-children"><a href="">Coders</a>
             <ul>
               <li><a href="#">Apply Now</a></li>
               <li><a href="#">Admissions</a>
@@ -64,7 +57,13 @@
               <li><a href="#">Become a Partner</a></li>
             </ul>
           </li>
-          <li><a href="#">Members</a></li>
+            <li class="menu-has-children"><a href="#about">About Us</a>
+            <ul>
+              <li><a href="#">Vision-Mission</a></li>
+              <li><a href="#">Values</a>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
           <li><a href="#">Donate</a></li>
           <li class="menu-has-children"><a href="">Volunteer</a>
             <ul>
@@ -97,7 +96,7 @@
       <div class="container">
         <div class="row about-container">
 
-          <div class="col-lg-6 content order-lg-1 order-2">
+          <div class="col-md-6 content order-md-1 order-2">
             <h2 class="title">Who are We?</h2>
             <p>
               We are a group of passionate developers, teachers, and mathematicians. However, we like to consider ourselves as educational trailblazers. By using our real world skills and techniques we are aiming to improve the lives of those who do not get the opportunity to pursue an education in software engineering.
@@ -125,11 +124,36 @@ The first step to success is a passionate mentor. At Coders United we provide th
 
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+          <div class="d-none d-md-inline col-md-6 background order-md-2 order-1 wow fadeInRight"></div>
         </div>
 
       </div>
     </section><!-- #about -->
+
+    <!--==========================
+      Vision-Mission Section
+    ============================-->
+    <section id="vision-mission">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Our Vision</h3>
+        </div>
+        <div class="row counters">
+
+          <div class="col-lg-6 col-12 text-center mt-5 mt-lg-0">            
+            <h3>Vision</h3>
+            <p>Our vision is to revolutionize the way computer science is taught. etc...</p>
+            <a href="./About/index.html" class="btn-get-started btn-block">Full statement</a>
+          </div>
+
+          <div class="col-lg-6 col-12 text-center mt-5 mt-lg-0">
+            <h3>Mission</h3>
+            <p>Our mission is to do this by OUR MISSION STATEMENT HERE.</p>
+            <a href="./About/mission-vision.html" class="btn-get-started btn-block">Full statement</a>
+        </div>
+
+      </div>
+    </section><!-- #facts -->
 
     <!--==========================
       Contact Section
@@ -137,8 +161,7 @@ The first step to success is a passionate mentor. At Coders United we provide th
     <section id="contact">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Contact Us!</h3>
         </div>
       </div>
 
