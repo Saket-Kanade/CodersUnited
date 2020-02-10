@@ -745,10 +745,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
+  
 }
+
+#about .about-container button{
+    background: #1f4590;
+}
+
+#about .about-container button a{
+    color: #fff; !important;
+}
+
+#about .about-container button:hover{
+    background: #f7f7f7;
+    transition: 0.4s;
+}
+
 
 /* Facts Section
 --------------------------------*/
