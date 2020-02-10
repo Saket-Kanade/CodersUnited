@@ -215,12 +215,6 @@ h6 {
   color: #1f4590;
 }
 
-#vision-mission .btn-get-started:hover {
-  background: #1f4590;
-  color: #fff;
-  border: 2px solid #1f4590;
-}
-
 #hero-template-about {
   width: 100%;
   height: 50vh;
@@ -302,6 +296,91 @@ h6 {
 }
 
 #hero-template-about .btn-get-started:hover {
+  background: #1f4590;
+  border: 2px solid #1f4590;
+}
+
+#hero-template-coders {
+  width: 100%;
+  height: 50vh;
+  background: url(../img/hero-bg-coders.jpg) 50% center;
+  background-size: cover;
+  position: relative;
+}
+
+.logo{
+    
+    height: 3em;
+    
+}
+
+#hero-template-coders:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-template-coders .hero-template-coders-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero-template-coders h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#hero-template-coders h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero-template-coders .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero-template-coders .btn-get-started:hover {
   background: #1f4590;
   border: 2px solid #1f4590;
 }
@@ -585,9 +664,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#about .about-container .background {
+#about .about-container .background{
   min-height: 100px;
   background: url(../img/about-img.jpg) no-repeat;
+  margin-bottom: 10px;
+}
+
+#about .about-container .backgroundCoders{
+  min-height: 100px;
+  background: url(../img/coders-standing.jpg) no-repeat;
   margin-bottom: 10px;
 }
 
