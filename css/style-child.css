@@ -676,6 +676,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#about .about-container .backgroundAjay{
+  min-height: 100px;
+  background: url(../img/portfolio/Aj.jpg) no-repeat;
+  margin-bottom: 10px;
+}
+
 #about .about-container .content {
   background: #fff;
 }
