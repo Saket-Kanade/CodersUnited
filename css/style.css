@@ -1023,6 +1023,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
+  #mobile-nav-toggle {
+    display: inline;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1024px) {
