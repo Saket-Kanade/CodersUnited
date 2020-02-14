@@ -682,6 +682,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/portfolio/Aj.jpg) no-repeat;
   margin-bottom: 10px;
 }
+#about .about-container .backgroundAdam{
+  min-height: 100px;
+  background: url(../img/portfolio/adam.JPG) no-repeat;
+  margin-bottom: 10px;
+}
+#about .about-container .backgroundKonrad{
+  min-height: 100px;
+  background: url(../img/portfolio/web2.png) no-repeat;
+  margin-bottom: 10px;
+}
 
 #about .about-container .content {
   background: #fff;
