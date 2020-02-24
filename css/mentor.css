@@ -135,21 +135,24 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero {
+
+#hero-template-mentor {
   width: 100%;
-  height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  height: 50vh;
+  background: url(../img/hero-bg-volunteer.jpg) center;
   background-size: cover;
   position: relative;
 }
 
 .logo{
-    height: 4em; 
+    
+    height: 4em;
+    
 }
 
-#hero:before {
+#hero-template-mentor:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -157,7 +160,7 @@ h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#hero-template-mentor .hero-template-mentor-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -183,7 +186,7 @@ h6 {
   text-align: center;
 }
 
-#hero h1 {
+#hero-template-mentor h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -192,13 +195,13 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#hero-template-mentor h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#apply-now .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -209,13 +212,8 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #1f4590;
   border: 2px solid #1f4590;
+  color: #1f4590;
 }
 
 /*--------------------------------------------------------------
@@ -226,7 +224,7 @@ h6 {
 
 .nav-menu,
 .nav-menu * {
-  
+  margin: 0;
   padding: 0;
   list-style: none;
   font-size: 2rem;
@@ -323,7 +321,7 @@ h6 {
 
 .nav-menu a:hover:before,
 .nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu > a:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -481,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .section-header .section-description {
@@ -490,22 +488,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
-/* About Us Section
+/* About Us Page
 --------------------------------*/
 
 #about {
-  background: #f1f1f1;
+  background: #fff;
   padding: 80px 0;
 }
 
-#about .about-container .background {
-  min-height: 100px;
-  background: url(../img/about-img.jpg) no-repeat;
-  margin-bottom: 10px;
+#about .about-container .background{
+  min-height: 5000px;
+  background: url(../img/volunteer.jpg) ;
+  margin-bottom:5000px;
 }
 
 #about .about-container .content {
-  background: #f1f1f1;
+  background: #fff;
 }
 
 #about .about-container .title {
@@ -519,18 +517,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 #about .about-container .icon-box {
-  background: #f1f1f1;
+  background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #f1f1f1;
+  background: #fff;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -573,14 +571,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
+  
 }
 
-#about .about-container button {
-  color: white;
+#about .about-container button{
+    background: #1f4590;
 }
+
+#about .about-container button a{
+    color: #fff; !important;
+}
+
+#about .about-container button:hover{
+    background: #f7f7f7;
+    transition: 0.4s;
+}
+
 
 /* Facts Section
 --------------------------------*/
@@ -617,18 +623,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 250px;
+  height: 200px;
   position: relative;
-  background: #1f4590;
+  background: #fafafa;
 }
 
 #services .icon {
   position: absolute;
-  top: -36px;
+  top: -20px;
   left: calc(50% - 36px);
-  transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #80a1ca;
+  border: 2px solid #1f4590;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -661,19 +666,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 
-#services .box:hover .icon {
-  background: #1f4590;
-  border: 2px solid #f7f7f7;
-}
-
-#services .box:hover .icon i {
-  color: #ff722c;
-}
-
-#services .box:hover .icon a {
-  color: #fff;
-}
-
 #services .title {
   font-weight: 700;
   font-size: 18px;
@@ -682,12 +674,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #f7f7f7;
+  color: #111;
 }
 
 #services .description {
-    color: #fff;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 24px;
 }
 
@@ -695,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 85, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call.jpg) fixed center center repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -840,7 +831,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 240px;
+  height: 260px;
 }
 
 #team .member .pic img {
@@ -1008,7 +999,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1023,10 +1014,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-  #mobile-nav-toggle {
-    display: inline;
-    justify-content: center;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1036,10 +1023,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 1024px) {
-    #call-to-action {
+  #call-to-action {
     background-attachment: scroll;
   }
-    
+}
+
+@media (max-width: 992px) {
   .back-to-top {
     bottom: 15px;
   }
