@@ -859,8 +859,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
-#about .about-container .icon-box .description {
-  
+#list-items {
+  text-align: center;
 }
 
 #about .about-container button{
