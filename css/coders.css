@@ -37,11 +37,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, .testimonial-link {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+.testimonial-link{
+  font-size: 1.25rem;
 }
 
 /* Prelaoder */
@@ -855,8 +859,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
-#about .about-container .icon-box .description {
-  
+#list-items {
+  text-align: center;
 }
 
 #about .about-container button{
