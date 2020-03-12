@@ -7,7 +7,7 @@ var form = document.forms["contact"];
   
       // Set Initial Variables
       var target = e.target || e.srcElement;
-      var to = 'bandagonda.ajay8@gmail.com';
+      var to = 'contactus@codersunited.org';
       var uri = 'mailto:' + to;
       var body = '';
   
