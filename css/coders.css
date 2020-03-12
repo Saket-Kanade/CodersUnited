@@ -876,6 +876,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.4s;
 }
 
+.btn-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #0957a4;
+}
+
+#collapseOne form {
+  margin: 15px;
+}
+
+form label {
+  color: black;
+}
+
 
 /* Facts Section
 --------------------------------*/
