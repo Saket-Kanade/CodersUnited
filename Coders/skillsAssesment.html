@@ -363,37 +363,37 @@
                 <li class="mb-5">
                     <p>What does the graph of <em>f(x) </em>= log(n) look like?</p>
 
+                    <!-- A IS THE CORRECT ANSWER -->
                     <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="option9a" value="option1">
-                        <label class="form-check-label" for="option9a">
-                            breh
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option10a" value="option1">
+                        <label class="form-check-label" for="option10a">
+                            <img src="../img/log.png" alt="" class="questions">
                         </label>
                     </div>
                     
                     <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="option9b" value="option1">
-                        <label class="form-check-label" for="option9b">
-                            3
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option10b" value="option1">
+                        <label class="form-check-label" for="option10b">
+                            <img src="../img/exponetial.png" alt="" class="questions">
                         </label>
                     </div>
-                    <!-- C IS THE CORRECT ANSWER -->
                     <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="option9c" value="option1">
-                        <label class="form-check-label" for="option9c">
-                            9
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option10c" value="option1">
+                        <label class="form-check-label" for="option10c">
+                            <img src="../img/inv.png" alt="" class="questions">
                         </label>
                     </div>
                     
                     <div class="form-check mb-4">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="option9d" value="option1">
-                        <label class="form-check-label" for="option9d">
-                           144
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="option10d" value="option1">
+                        <label class="form-check-label" for="option10d">
+                           <img src="../img/quadratic.png" alt="" class="questions">
                         </label>
                     </div>
                 </li>
             </ol>
 
-            <button class="btn btn-primary" type="submit">Submit Test</button>
+            <button id="submitExam" class="btn btn-primary" type="submit">Submit Test</button>
         </div>
       </div>
     </section><!-- #about -->
@@ -444,13 +444,11 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+
+              <!-- Contact Form -->
+              <form class="contactForm" name="contact" method="post">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -458,11 +456,18 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center">
+                  <button type="submit" name="send" value="Send Message">Send Message</button>
+                </div>
               </form>
+              
             </div>
           </div>
 
