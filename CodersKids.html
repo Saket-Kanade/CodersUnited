@@ -22,7 +22,7 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/coders.css" rel="stylesheet">
+  <link href="css/about-us.css" rel="stylesheet">
 </head>
 
 <body>
@@ -65,46 +65,16 @@
   <!--==========================
     Hero Section
   ============================-->
-  <section id="hero-template-coders">
-    <div class="hero-template-coders-container">
-      <h1>Coders</h1>
-      <h2>Find out more about our students</h2>
+  <section id="hero-template-about">
+    <div class="hero-template-about-container">
+      <h1>About Us</h1>
+      <h2>Here's what we are about!</h2>
     </div>
   </section><!-- #hero -->
 
   <main id="main">
 
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-md-6 content order-md-6 order-6">
-            <h2 class="title">Who are our coders?</h2>
-            <p>
-                Our "Coders" are our members within the organization. We provide lifetime support and connections to our coders. Our Coders go by many names. Software Engineers, Software Developers, and Computer Programmers. Our coders are experts in a variety of disciplines such as Quality Assurance, Cyber-security, and information technology.
-              </p>
-              
-              <button type="button" class="col-lg-12 col md-12 btn"><a href="Coders/admissions.html">Admissions</a></button>
-
-          </div>
-            
-            <div class="col-md-6 content order-md-6 order-6">
-            <h2 class="title">What can our coders expect?</h2>
-              <p>
-                Those interested in pursuing coding careers can expect growing job opportunities. Coders design software programs, web-apps, and databases. In a world that places increasing importance on development, employment options for coders remain robust in a variety of industries. 
-            </p>
-              
-              <button type="button" class="col-lg-12 col md-12 btn"><a href="Coders/apply-now.html">Apply Now</a></button>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #about -->
+     <div class="typeform-widget" data-url="https://saketssn.typeform.com/to/jS1l01" data-transparency="100" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 800px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=jS1l01&utm_source=typeform.com-01E65BH7SY6JF3K86P9S4SWQ5F-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
     <!--==========================
       Contact Section
@@ -152,15 +122,9 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-
-              <!-- Contact Form -->
-              <form class="contactForm" name="contact" method="post">
+              <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -168,14 +132,15 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center">
-                  <button type="submit" name="send" value="Send Message">Send Message</button>
-                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
               </form>
-              
             </div>
           </div>
 
