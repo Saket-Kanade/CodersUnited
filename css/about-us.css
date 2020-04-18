@@ -218,7 +218,7 @@ h6 {
 #hero-template-about {
   width: 100%;
   height: 50vh;
-  background: url(../img/absolutvision-82TpEld0_e4-unsplash.jpg) 50% center;
+  background: url(../img/bg.jpg) 50% center;
   background-size: cover;
   position: relative;
 }
@@ -755,7 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background{
   min-height: 100px;
-  background: url(../img/about-img.jpg) no-repeat;
+  background: url(../img/yusril-permana-ali-2ZmfGVOSGvs-unsplash%20copy.jpg) no-repeat;
   margin-bottom: 10px;
 }
 
