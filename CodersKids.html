@@ -111,9 +111,13 @@
     <section id="contact">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Contact Us!</h3>
+          <h3 class="section-title">Contact</h3>
+          <p class="section-description">Here's how to reach us!</p>
         </div>
       </div>
+
+      <!-- Uncomment below if you wan to use dynamic maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.900855501021!2d-77.03904758420181!3d38.903382479569636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7befb17f6c7%3A0xcb0f2f7f213fb2ca!2s1020%2016th%20St%20NW%2C%20Washington%2C%20DC%2020036!5e0!3m2!1sen!2sus!4v1580767450428!5m2!1sen!2sus" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
       <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
@@ -128,7 +132,7 @@
 
               <div>
                 <i class="fa fa-envelope"></i>
-                <p>contact-us@codersunited.org</p>
+                <a href="mailto:contactUs@codersunited.org"><p>contactUs@codersunited.org</p></a>
               </div>
 
               <div>
@@ -151,13 +155,11 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              
+              <!-- Contact Form -->
+              <form class="contactForm" name="contact" method="post">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -165,11 +167,18 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center">
+                  <button type="submit" name="send" value="Send Message">Send Message</button>
+                </div>
               </form>
+              
             </div>
           </div>
 
